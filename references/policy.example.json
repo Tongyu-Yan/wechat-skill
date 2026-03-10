@@ -1,0 +1,8 @@
+{
+  "reply_mode": "whitelist",
+  "allow_senders": ["Jennifer", "y"],
+  "deny_senders": [],
+  "trigger_keywords": ["紧急", "urgent", "回复", "帮我", "?", "？"],
+  "cooldown_sec": 120,
+  "max_actions": 1
+}

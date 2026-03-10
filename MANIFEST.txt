@@ -1,0 +1,17 @@
+./MANIFEST.txt
+./README.md
+./README.zh-CN.md
+./SELF_MANAGED_SETUP.md
+./SHA256SUMS.txt
+./SKILL.md
+./references/policy.example.json
+./scripts/decide_wechat_reply.py
+./scripts/deploy_listener_launchd.sh
+./scripts/deploy_stop_hotkey_launchd.sh
+./scripts/hotkey_ctl.sh
+./scripts/install_gateway_autostart_hook.sh
+./scripts/listener_ctl.sh
+./scripts/notify_openclaw_hook.py
+./scripts/run_listener.sh
+./scripts/wechat_event_trigger_bridge.py
+./scripts/wechat_stop_hotkey.py
