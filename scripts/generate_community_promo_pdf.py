@@ -99,7 +99,7 @@ def build_pdf(output_path: Path) -> None:
         ),
         Paragraph("快速上手（3 步）", section_style),
         Paragraph(
-            "1. 安装并配置 TuriX-CUA（必需）<br/>"
+            "1. 安装并配置 TuriX-CUA（必需，推荐 mac_legacy 分支）<br/>"
             "2. 配置 OpenClaw hooks 与会话参数<br/>"
             "3. 安装监听器并选择回复模式（whitelist / blacklist / all）",
             body_style,
@@ -144,7 +144,8 @@ def build_pdf(output_path: Path) -> None:
             Paragraph(
                 "开源地址：<br/>"
                 "• wechat-skill: https://github.com/Tongyu-Yan/wechat-skill<br/>"
-                "• TuriX-CUA: https://github.com/TurixAI/TuriX-CUA",
+                "• TuriX-CUA: https://github.com/TurixAI/TuriX-CUA<br/>"
+                "• 推荐分支: https://github.com/TurixAI/TuriX-CUA/tree/mac_legacy",
                 body_style,
             ),
             Spacer(1, 8),

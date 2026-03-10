@@ -14,6 +14,7 @@ Core flow:
 ## Plain-Language Overview
 
 This repository is not a standalone product. You must install and set up [TuriX-CUA](https://github.com/TurixAI/TuriX-CUA) before using it.
+Recommended: use the [`mac_legacy` branch](https://github.com/TurixAI/TuriX-CUA/tree/mac_legacy) of TuriX-CUA.
 
 In simple terms, it works like this:
 
@@ -66,7 +67,7 @@ Mode requirements:
 ## 0) Requirements
 
 - macOS
-- Installed and working [TuriX-CUA](https://github.com/TurixAI/TuriX-CUA)
+- Installed and working [TuriX-CUA](https://github.com/TurixAI/TuriX-CUA) (recommended: [`mac_legacy` branch](https://github.com/TurixAI/TuriX-CUA/tree/mac_legacy))
 - OpenClaw CLI + gateway
 - Python 3
 - WeChat backend API available at `http://127.0.0.1:8787` (or your own endpoint)

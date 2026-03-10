@@ -12,6 +12,7 @@
 ## 给普通用户的仓库介绍
 
 这个仓库不是独立运行的产品，必须先安装并可用 [TuriX-CUA](https://github.com/TurixAI/TuriX-CUA) 才能正常使用。
+推荐优先使用 TuriX-CUA 的 [`mac_legacy` 分支](https://github.com/TurixAI/TuriX-CUA/tree/mac_legacy)。
 
 它的工作方式可以理解为：
 
@@ -64,7 +65,7 @@
 ## 0) 环境要求
 
 - macOS
-- 已安装并可用 [TuriX-CUA](https://github.com/TurixAI/TuriX-CUA)
+- 已安装并可用 [TuriX-CUA](https://github.com/TurixAI/TuriX-CUA)（推荐 [`mac_legacy` 分支](https://github.com/TurixAI/TuriX-CUA/tree/mac_legacy)）
 - OpenClaw CLI + gateway
 - Python 3
 - 可用的微信后端 API：`http://127.0.0.1:8787`（或你自己的端点）
